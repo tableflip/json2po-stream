@@ -1,0 +1,35 @@
+{
+  "name": "pocreate",
+  "version": "0.0.0",
+  "description": "Create .po files",
+  "main": "index.js",
+  "dependencies": {
+    "joi": "^6.5.0",
+    "duplexer2": "^0.0.2",
+    "ndjson": "^1.4.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableflip/pocreate.git"
+  },
+  "keywords": [
+    "po",
+    "pot",
+    "gettext",
+    "ngettext",
+    "xgettext"
+  ],
+  "author": "Alan Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tableflip/pocreate/issues"
+  },
+  "homepage": "https://github.com/tableflip/pocreate#readme"
+}
