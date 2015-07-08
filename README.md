@@ -7,8 +7,8 @@ The ndjson objects should be entries and look something like this:
 
 ```json
 {
-  id: "Untranslated string",
-  str: "Translated string"
+  "id": "Untranslated string",
+  "str": "Translated string"
 }
 ```
 
@@ -25,8 +25,8 @@ Ok so thats fun...but what about
 
 ```json
 {
-  id: "",
-  str: [
+  "id": "",
+  "str": [
     "Language: en\\n",
     "Content-Type: text/plain; charset=UTF-8\\n"
   ]
@@ -46,11 +46,11 @@ msgstr ""
 
 ```json
 {
-  id: "found %d fatal error",
-  idPlural: "found %d fatal errors",
-  str: [
-    's\'ha trobat %d error fatal',
-    's\'han trobat %d errors fatals'
+  "id": "found %d fatal error",
+  "idPlural": "found %d fatal errors",
+  "str": [
+    "s'ha trobat %d error fatal",
+    "s'han trobat %d errors fatals"
   ]
 }
 ```
@@ -68,9 +68,9 @@ msgstr[1] "s'han trobat %d errors fatals"
 
 ```json
 {
-  context: "Languages",
-  id: "2co_enable_fraud_verification",
-  str: "Enable support of fraud notification"
+  "context": "Languages",
+  "id": "2co_enable_fraud_verification",
+  "str": "Enable support of fraud notification"
 }
 ```
 
@@ -84,15 +84,15 @@ msgstr "Enable support of fraud notification"
 
 ```json
 {
-  translatorComments: [
+  "translatorComments": [
     "Base pack of \"English\" language variables",
     "Compiled by computer"
   ],
-  extractedComments: "Enable support of fraud notification",
-  reference: "src/msgcmp.c:338 src/po-lex.c:699",
-  flag: "c-format",
-  id "found %d fatal error",
-  str: "Status for orders with failed fraud review"
+  "extractedComments": "Enable support of fraud notification",
+  "reference": "src/msgcmp.c:338 src/po-lex.c:699",
+  "flag": "c-format",
+  "id": "found %d fatal error",
+  "str": "Status for orders with failed fraud review"
 }
 ```
 
