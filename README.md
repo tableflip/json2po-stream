@@ -64,7 +64,7 @@ msgstr[0] "s'ha trobat %d error fatal"
 msgstr[1] "s'han trobat %d errors fatals"
 ```
 
-# Context
+## Context
 
 ```json
 {
@@ -80,7 +80,7 @@ msgid "2co_enable_fraud_verification"
 msgstr "Enable support of fraud notification"
 ```
 
-# Comments
+## Comments
 
 ```json
 {
