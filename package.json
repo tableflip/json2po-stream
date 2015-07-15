@@ -24,7 +24,9 @@
     "pot",
     "gettext",
     "ngettext",
-    "xgettext"
+    "xgettext",
+    "json",
+    "stream"
   ],
   "author": "Alan Shaw",
   "license": "ISC",
