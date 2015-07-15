@@ -1,4 +1,4 @@
-# pocreate
+# json2po-stream
 Create .po files.
 
 Pipe [ndjson](https://www.npmjs.com/package/ndjson) in and get a .po formatted file out.

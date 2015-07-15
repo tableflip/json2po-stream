@@ -1,5 +1,5 @@
 var test = require('tape')
-var pocreate = require('./')
+var json2po = require('./')
 
 test('Creates an entry', function (t) {
   t.plan(1)
@@ -11,13 +11,13 @@ test('Creates an entry', function (t) {
 
   var out = ''
 
-  var pc = pocreate()
+  var stream = json2po()
 
-  pc.on('data', function (data) { out += data })
+  stream.on('data', function (data) { out += data })
 
-  pc.write(JSON.stringify({id: 'TEST 1', str: 'TESTING 123'}) + '\n')
+  stream.write(JSON.stringify({id: 'TEST 1', str: 'TESTING 123'}) + '\n')
 
-  pc.end(function () {
+  stream.end(function () {
     console.log(out)
     t.equal(out, expected, 'Output was expected')
     t.end()
