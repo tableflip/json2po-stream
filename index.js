@@ -111,6 +111,8 @@ module.exports = function () {
           })
         }
       }
+
+      cb()
     })
   })
 
